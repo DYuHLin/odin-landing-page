@@ -14,12 +14,14 @@ body{
     align-items: center;
     gap: 700px;
     padding: 0 24px 0 24px;
+    position: fixed;
+    width: 100%;
 }
 
 .links{
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 24px;
 }
 
 ul{
