@@ -10,8 +10,9 @@ body{
     display: flex;
     height: 60px;
     background-color: #1f2937;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    gap: 700px;
     padding: 0 24px 0 24px;
 }
 
@@ -38,33 +39,38 @@ a{
 }
 
 .first{
-    flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #1f2937; 
-    padding: 24px;
+    padding: 104px 164px 104px 164px;
     margin-bottom: 24px;
+    gap: 64px;
 }
 
-.first__content{
-    display: flex;
-    width: 100px;
-    justify-content: center;
-    align-items: center;
-    gap: 52px;
+.first__info{
+    width: 900px;
+    flex-wrap: wrap;
 }
 
 .first__img{
-    width: 600px;
+    width: 500px;
+    height: 250px;
 }
 
 .first__text, a{
     color: #e5e7eb;   
 }
 
+.first__text{
+    margin-bottom: 12px;
+}
+
 .first__title, .a__logo{
     color: #f9faf8;
+}
+
+.first__title{
+    font-size: 48px;
 }
 
 .first__button{
@@ -75,6 +81,10 @@ a{
     padding: 12px 28px 12px 28px;
     border-radius: 8px;
     border: none;
+}
+
+.first__button:hover{
+    background-color: #2f70da;
 }
 
 .second{
@@ -166,6 +176,10 @@ a{
     font-size: 18px;
     border-radius: 8px;
     padding: 12px 48px 12px 48px;
+}
+
+.signup:hover{
+    background-color: #2f70da;
 }
 
 .contact__header{
