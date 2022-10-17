@@ -119,8 +119,10 @@ a{
     flex: 1;
     background-color: #e5e7eb;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 700px;
-    padding: 16px;
+    padding: 140px;
     margin-bottom: 48px;
     
 }
@@ -131,16 +133,64 @@ a{
     font-weight:lighter;
 }
 
+.quote__giver{
+    text-align: right;
+    color: #1f2937;
+    font-weight:lighter;
+    font-size: 20px;
+}
+
 .fourth{
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 48px;
 }
 
 .contact__container{
     background-color: #3882f6;
+    width: 1100px;
+    padding: 32px;
+    border-radius: 8px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 64px;
+    gap: 184px;
+}
+
+.signup{
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 12px 48px 12px 48px;
+}
+
+.contact__header{
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.contact__text{
+    color: #e5e7eb;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text{
+    color: #e5e7eb;
+}
+
+button{
+    cursor: pointer;
 }
