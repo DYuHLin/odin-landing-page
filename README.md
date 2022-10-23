@@ -8,3 +8,6 @@ Second Image credits go to Belle Co on Pexels
 Third Image credits go to Checan27_ on Pexels
 Fourth Image credits go to Timo Volz on Pexels
 Fith Image credits go to Kai-Chieh Chan on Pexels
+
+# Live
+https://dyuhlin.github.io/odin-landing-page/
